@@ -52,3 +52,22 @@ div img:hover {
 }
 
 /* Tweet image */
+
+.tweet-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* Tweet actions (like, retweet, etc.) */
+.tweet-actions {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    color: #657786;
+    font-family: Arial, sans-serif;
+}
+
+#action-value {
+    font-family: Arial, sans-serif;
+}
